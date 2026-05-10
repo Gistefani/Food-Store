@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <header>
+    
+        <nav id="navbar">
+
+            <h1 id="logo">
+                <img src="/assets/carrito.png">
+                <span class="food">Food</span>
+                <span class="store">Store</span>
+
+            </h1>
+            <div class="nav-links" >
+                <a href="./home.html" >Catalogo </a>
+                <a href="/src/pages/store/cart/cart.html">Carrito </a>
+            </div>
+                
+        </nav>
+    </header>
+    <hr>
+     <main id="cart"> 
+    
+        <section>
+           
+        <h3>Mi Carrito</h3>
+        <ul id="lista-carrito"></ul>
+       <p id="mensaje-carrito"></p>
+       <img id="img-carrito-vacio" src="/assets/carrito.png" alt="carrito vacío" class="img-carrito-vacio">
+
+
+        </section>
+        <section id="resumen">
+            <h2>Resumen</h2>
+        <p id="total-carrito"></p>
+        <button id="boton-finalizar">Finalizar compra</button>
+        <button id="boton vaciar">vaciar carrito</button>
+    
+    </section>
+        
+
+     
+
+            
+        
+    </main>
+    
+    <footer>
+
+    </footer>
+     <script type="module" src="./cart.ts"></script> 
+     
+    
+</body>
+</html>
